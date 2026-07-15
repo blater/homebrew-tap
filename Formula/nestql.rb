@@ -1,9 +1,9 @@
 class Nestql < Formula
   desc "SQL-like language for querying and transforming structured files"
   homepage "https://github.com/blater/nestql"
-  url "https://github.com/blater/nestql/releases/download/v1.0.1/nestql-1.0.1-darwin-arm64.tar.gz"
-  version "1.0.1"
-  sha256 "1ec1be6b5828f24b22aa0d0a0cbbd89f3b13be7f884d5e3fc1258abbf943872e"
+  url "https://github.com/blater/nestql/releases/download/v1.0.2/nestql-1.0.2-darwin-arm64.tar.gz"
+  version "1.0.2"
+  sha256 "4ef1a35e2122826e8bacf25a8df420143973c283d2a6c5f4c000d4ad344d1388"
   license "AGPL-3.0-only"
 
   depends_on arch: :arm64
