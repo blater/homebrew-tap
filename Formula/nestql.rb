@@ -3,7 +3,7 @@ class Nestql < Formula
   homepage "https://github.com/blater/nestql"
   url "https://github.com/blater/nestql/releases/download/v1.0.0/nestql-1.0.0-darwin-arm64.tar.gz"
   version "1.0.0"
-  sha256 "400ffccec6f4fd2f81fdcf52023e161e525727007a851a046465f27dffc4db04"
+  sha256 "a50fc28a437164dc5d0944387369bf7016d8ef28b0eb72f97458aac0b55eee12"
   license "AGPL-3.0-only"
 
   depends_on arch: :arm64
