@@ -1,9 +1,9 @@
 class Nq < Formula
   desc "SQL-like language for querying and transforming structured files"
   homepage "https://github.com/blater/nq"
-  url "https://github.com/blater/nq/releases/download/v0.9.6/nq-0.9.6-darwin-arm64.tar.gz"
-  version "0.9.6"
-  sha256 "d5adf00e242138f3d9051398f0a469ca464a456b2d2ae06d2134652101e0eb18"
+  url "https://github.com/blater/nq/releases/download/v0.9.7/nq-0.9.7-darwin-arm64.tar.gz"
+  version "0.9.7"
+  sha256 "88002360e91a0dacbb2416edde4e218ba4581a85c0a786c949bca42353a381d8"
   license "AGPL-3.0-only"
 
   depends_on arch: :arm64
