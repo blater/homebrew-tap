@@ -1,9 +1,9 @@
 class Nq < Formula
   desc "SQL-like language for querying and transforming structured files"
   homepage "https://github.com/blater/nq"
-  url "https://github.com/blater/nq/releases/download/v1.0.0/nq-1.0.0-darwin-arm64.tar.gz"
-  version "1.0.0"
-  sha256 "5b775e5b15fc0809aa39bcd360667c8fcdf28c2e877cc2239515c29a3d6cd15c"
+  url "https://github.com/blater/nq/releases/download/v1.0.4/nq-1.0.4-darwin-arm64.tar.gz"
+  version "1.0.4"
+  sha256 "118ea3f01356a76cb83a680f309a40e6fbb0ea545be5d6a8fd3d4dc42b1fad9c"
   license "AGPL-3.0-only"
 
   depends_on arch: :arm64
@@ -14,7 +14,7 @@ class Nq < Formula
   end
 
   test do
-    output = shell_output("#{bin}/nq --list-caches --cache-dir #{testpath}/cache 2>&1")
-    assert_match "No caches found", output
+    output = shell_output("#{bin}/nq cache list --cache-dir #{testpath}/cache --report-format json 2>&1")
+    assert_match '"caches":[]', output
   end
 end
