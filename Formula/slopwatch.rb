@@ -1,9 +1,9 @@
 class Slopwatch < Formula
   desc "Native code-quality scoring and live slopwatch dashboard"
   homepage "https://github.com/blater/slopwatch"
-  url "https://github.com/blater/slopwatch/releases/download/v0.1.28/slopwatch-0.1.28-darwin-arm64.tar.gz"
-  version "0.1.28"
-  sha256 "13e8b515258af7f679e15ebc507a4fb13a2a9fc02037aee37b05e6ee95ff98cf"
+  url "https://github.com/blater/slopwatch/releases/download/v0.1.29/slopwatch-0.1.29-darwin-arm64.tar.gz"
+  version "0.1.29"
+  sha256 "29a38213b1e9970d5ebf1c233ecaa0d8f79e30523953d9da8b5bf4c521fd5522"
   license "MIT"
 
   depends_on arch: :arm64
